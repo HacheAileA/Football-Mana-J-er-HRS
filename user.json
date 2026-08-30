@@ -1,0 +1,13 @@
+{
+  "ManagerId": -1,
+  "preferences": {
+    "language": "FR",
+    "volume": 100,
+    "soundEffects": 100
+  },
+  "infrastructures": {
+    "raceTrackLevel": 1,
+    "fieldLevel": 1,
+    "cageLevel": 1
+  }
+}

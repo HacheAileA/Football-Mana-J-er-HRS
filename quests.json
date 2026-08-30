@@ -1,0 +1,51 @@
+[
+  {
+    "id": "1",
+    "category": "PLAYERS_BUY",
+    "advancement": 0,
+    "objective": 2,
+    "reward": 1500
+  },
+  {
+    "id": "2",
+    "category": "MATCH_PLAY",
+    "advancement": 0,
+    "objective": 1,
+    "reward": 1000
+  },
+  {
+    "id": "3",
+    "category": "QUESTS_FINISH",
+    "advancement": 0,
+    "objective": 2,
+    "reward": 1000
+  },
+  {
+    "id": "4",
+    "category": "CHAMPIONSHIP_PLAY",
+    "advancement": 0,
+    "objective": 1,
+    "reward": 5000
+  },
+  {
+    "id": "5",
+    "category": "CHAMPIONSHIP_WIN",
+    "advancement": 0,
+    "objective": 1,
+    "reward": 15000
+  },
+  {
+    "id": "6",
+    "category": "TRAINING",
+    "advancement": 0,
+    "objective": 5,
+    "reward": 2000
+  },
+  {
+    "id": "7",
+    "category": "UPGRADE_BUILDING",
+    "advancement": 0,
+    "objective": 3,
+    "reward": 5000
+  }
+]

@@ -1,0 +1,62 @@
+image: maven:3-eclipse-temurin-17
+
+variables:
+  MAVEN_OPTS: "-Dmaven.repo.local=$CI_PROJECT_DIR/.m2/repository"
+
+stages:
+  - build
+  - quality
+  - export
+
+cache:
+  paths:
+    - .m2/repository
+
+before_script:
+  - git remote prune origin
+  - |
+    if echo "$CI_RUNNER_TAGS" | grep -q "local"; then
+      echo "Runner avec tag 'local' détecté. Configuration sans proxy."
+    else
+      echo "Runner sans tag 'local'. Configuration avec proxy."
+      mkdir -p $HOME/.m2
+      echo "<settings><proxies><proxy><id>ci-proxy</id><active>true</active><protocol>http</protocol><host>$PROXY_HOST</host><port>$PROXY_PORT</port><nonProxyHosts>localhost|127.0.0.1|*.u-paris.fr</nonProxyHosts></proxy></proxies></settings>" > $HOME/.m2/settings.xml
+    fi
+
+compile:
+  stage: build
+  script:
+    - mvn compile -B
+  artifacts:
+    paths:
+      - target/
+    expire_in: 1 week
+
+checkstyle:
+  stage: quality
+  script:
+    - mvn checkstyle:check -B
+  artifacts:
+    paths:
+      - target/checkstyle-result.xml
+    when: always
+    expire_in: 1 week
+
+test:
+  stage: quality
+  script:
+    - mvn test -B
+  artifacts:
+    reports:
+      junit: target/surefire-reports/TEST-*.xml
+    expire_in: 1 week
+
+docs:
+  stage: export
+  script:
+    - mvn javadoc:javadoc -B
+  artifacts:
+    paths:
+      - target/site/apidocs
+    expire_in: 1 week
+  allow_failure: true

@@ -1,0 +1,32 @@
+
+# REPERTOIRES
+.settings/
+.idea/
+out/
+
+# Maven
+target/
+
+# VSCode
+.vscode/
+
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Eclipse
+.apt_generated
+.factorypath
+.springBeans
+.sts4-cache
+
+#FICHIERS
+*.class
+.env
+.project
+.classpath
+.DS_STORE
+dependency-reduced-pom.xml
+
