@@ -1,4 +1,4 @@
-# 2026-CB2-C-HRS
+# Projet Football Mana-J-er — Université Paris Cité (L2 Informatique 2025–2026)
 
 ## Table des matières
 
