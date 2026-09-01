@@ -1,5 +1,7 @@
 # 2026-CB2-C-HRS
 
+CE PROJET PROVIENT D'UNE INSTANCE PRIVEE GITLAB
+
 ## Table des matières
 
 - [Description du projet](#description-du-projet)
@@ -141,7 +143,6 @@ Les tests unitaires (avec JUnit) seront ajoutés au fur et à mesure dans le dos
 
 Les auteurs sont consignés dans le fichier [AUTHORS](./AUTHORS.md).
 
-Projet réalisé dans le cadre de l'UE Projet Informatique (JAVA) (Université Paris Cité – 2025–2026).  
-Serveur GitLab : https://moule.informatique.u-paris.fr/arnaudh/2026-cb2-c-kahrs
+Projet réalisé dans le cadre de l'UE Projet Informatique (JAVA) (Université Paris Cité – 2025–2026).
 
 Projet académique — Licence libre MIT (voir fichier [LICENSE](./LICENSE)).
