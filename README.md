@@ -1,7 +1,5 @@
 # 2026-CB2-C-HRS
 
-CE PROJET PROVIENT D'UNE INSTANCE PRIVEE GITLAB
-
 ## Table des matières
 
 - [Description du projet](#description-du-projet)
