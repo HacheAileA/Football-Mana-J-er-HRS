@@ -1,6 +1,7 @@
 # Guide de contribution au projet « Football Manager »
 
-Avant de commencer, veuillez lire attentivement les consignes ci-dessous, ainsi que le [README](./README.md).
+Avant de commencer, veuillez lire attentivement les consignes ci-dessous, ainsi que le [README](./README.md).  
+CE PROJET PROVIENT D'UNE INSTANCE PRIVEE GITLAB
 
 ## Table des matières
 
@@ -46,11 +47,7 @@ Pour contribuer, il est nécessaire de créer une branche dérivée d’une des 
 
 1. **Cloner** le dépôt. Dans le terminal, se placer dans le dossier souhaité et exécuter la commande suivante :
 
-   ```bash
-   git clone https://moule.informatique.u-paris.fr/arnaudh/2026-cb2-c-kahrs
-   ```
-
-2. [Créer](https://moule.informatique.u-paris.fr/arnaudh/2026-cb2-c-kahrs/-/issues/new) un **ticket** pour proposer votre suggestion, ou [traiter](https://moule.informatique.u-paris.fr/arnaudh/2026-cb2-c-kahrs/-/issues) un ticket existant. N'oubliez pas d'y ajouter les bons labels et jalon.
+2. Créer un **ticket** pour proposer votre suggestion, ou traiter un ticket existant. N'oubliez pas d'y ajouter les bons labels et jalon.
 
 3. Se placer dans une des branches protégées principale et créer une **branche** dédiée à vos modifications :
 
@@ -90,7 +87,7 @@ Pour contribuer, il est nécessaire de créer une branche dérivée d’une des 
    git push -u origin nom-de-la-branche
    ```
 
-7. [Ouvrez](https://moule.informatique.u-paris.fr/arnaudh/2026-cb2-c-kahrs/-/merge_requests/new) une MR vers la branche appropriée (se reporter au [README](./README.md)).
+7. Ouvrez une MR vers la branche appropriée (se reporter au [README](./README.md)).
 
 ## Mettre à jour le projet
 
@@ -191,6 +188,6 @@ MR soumise → Relecture et commentaires
 
 Si vous avez une question, vérifiez d’abord que la réponse ne se trouve pas dans le [README](./README.md), la **documentation du projet**, ou dans un **ticket**.
 
-Si vous n'avez pas de réponse à votre question, [ouvrez](https://moule.informatique.u-paris.fr/arnaudh/2026-cb2-c-kahrs/-/issues/new) un **ticket** sur le dépôt en décrivant clairement votre problème ou demande.
+Si vous n'avez pas de réponse à votre question, ouvrez un **ticket** sur le dépôt en décrivant clairement votre problème ou demande.
 
 N’hésitez pas à participer aux discussions pour clarifier ou enrichir les réponses.
